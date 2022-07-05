@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    background: #1f4068;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.header-content
+{
+    position: relative;
+    display: flex;
+    padding: 3rem 3rem;
+}
+
+.header-content .logo
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header-content .logo .brandname
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: .7rem 1.2rem;
+}
+
+.header-content .logo .brandname .brandname-one h2
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+
+.header-content .logo .brandname .brandname-two h2
+{
+    color: yellow;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: .3rem 0;
+    letter-spacing: .2rem;
+}
+
+.header-content .header-navigation
+{
+    position: relative;
+    margin-left: 26rem;
+    margin-top: .6rem;
+    max-width: 100%;
+}
+
+.header-content .header-navigation ul
+{
+    position: relative;
+    display: flex;
+}
+
+.header-content .header-navigation ul li 
+{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    text-transform: capitalize;
+    padding: .7rem 1.8rem;
+    cursor: pointer;
+}
+
+
+.header-content .header-navigation ul li:first-child
+{
+    border-bottom: .1rem solid #eeb462;
+}
+
+.header-content .header-navigation ul li:hover 
+{
+    border-bottom: .1rem solid #eeb462;
+}
+
+.header-content .header-navigation ul li span
+{
+    text-transform: uppercase;
+}
+
+.header-content .header-search
+{
+    position: relative;
+    max-width: 100%;
+    margin-left: 5rem;
+    margin-top: .2rem;
+    cursor: pointer;
+}
+
+.header-content .header-search .circle-one
+{
+    border-radius: 50rem;
+    border: .5rem solid rgba(255, 255, 0, 0.6);
+}
+
+.header-content .header-search .circle-one .circle-two
+{
+    border-radius: 50rem;
+    border: .2rem solid yellow;
+    background: yellow;
+}
+
+.header-content .header-search .circle-one .circle-two ion-icon
+{
+    color: black;
+    font-size:1.4rem;
+    font-weight: 700;
+    padding: .2rem .3rem;
+}
+
+.content
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.content .content-info
+{
+    position: relative;
+    padding: 3rem 3rem;
+}
+
+.content .content-info .text1
+{
+    color: yellow;
+    font-size: 5rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+
+.content .content-info .text2
+{
+    color: white;
+    font-size: 4rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+
+.content .content-info .text2 span
+{
+    color: white;
+    font-size: 4rem;
+    text-transform: none;
+}
+
+.content .content-info p
+{
+    color: white;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    margin-top: .2rem;
+}
+
+.content .content-info form
+{
+    position: relative;
+    display: grid;
+}
+
+.content .content-info form input
+{
+    font-size: 1.5rem;
+    padding: .1rem 1rem;
+    text-transform: capitalize;
+    width: 65%;
+    margin-top: 1rem;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+    border-top-left-radius: 35rem;
+    border-bottom-left-radius: 35rem;
+}
+
+.content .content-info form button 
+{
+    font-size: 1.5rem;
+    width: 18%;
+    text-transform: uppercase;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+    border-top-left-radius: 35rem;
+    border-bottom-left-radius: 35rem;
+    padding: .1rem .3rem;
+    background: yellow;
+    margin-top: 2rem;
+}
+
+.content-img
+{
+    position: absolute;
+    top:28%; left: 50%;
+    display: flex;
+}
+
+.content-img .img1
+{
+    border: .8rem solid white;
+    border-radius: 2rem; opacity: .5;
+}
+
+.content-img .img2
+{
+    position: absolute;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 48.2%; top: 3%; left: 1.8%;
+    opacity: 0.9;  cursor: pointer;
+}
+
+.content-img .img3
+{
+    position: absolute;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 48.2%; top: 3%; right: 1.8%;
+    opacity: 0.9; cursor: pointer;
+}
+
+.content-img .img4
+{
+    position: absolute;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 48.2%; top: 50%; right: 25%;
+    opacity: 0.9; cursor: pointer;
+}
+
+.content-img .img2:hover
+{
+    border: .8rem solid white;
+    border-radius: 2rem;
+    width: 100%; z-index: 1;
+    position: absolute;
+    top: 0%; left: 0%;
+    opacity: 1; transition: .5s;
+}
+
+.content-img .img3:hover
+{
+    border: .8rem solid white;
+    border-radius: 2rem;
+    width: 100%; z-index: 1;
+    position: absolute;
+    top: 0%; right: 0%;
+    opacity: 1;transition: .5s;
+}
+
+.content-img .img4:hover
+{
+    border: .8rem solid white;
+    border-radius: 2rem;
+    width: 100%; z-index: 1;
+    position: absolute;
+    top: 0%; left: 0%;
+    opacity: 1; transition: .5s;
+}
+
+.content-social
+{
+    position: absolute;
+    top: 50%;left: 50%;
+}
+
+.content-social .fbinstagram
+{
+    position: absolute;
+    margin-top: -12rem;
+    display: flex;
+}
+
+.content-social .fbinstagram .fb 
+{
+    position: relative;
+    display: flex;
+    margin-left: .5rem;
+}
+
+.content-social .fbinstagram .fb ion-icon
+{
+    font-size: 1.7rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.content-social .fbinstagram .fb p
+{
+    font-size: 1rem;
+    background: white;
+    height: 70%;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: .1rem;
+    visibility: hidden;
+    transform: translateX(-10rem);
+}
+
+.content-social .fbinstagram .fb:hover p
+{
+    visibility: visible;
+    transform: translateX(0);
+    transition: .5s;
+}
+
+.content-social .fbinstagram .insta 
+{
+    position: relative;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.content-social .fbinstagram .insta ion-icon
+{
+    font-size: 1.7rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.content-social .fbinstagram .insta p
+{
+    font-size: 1rem;
+    background: white;
+    height: 70%;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: .1rem;
+    visibility: hidden;
+    transform: translateX(-10rem);
+}
+
+.content-social .fbinstagram .insta:hover p
+{
+    visibility: visible;
+    transform: translateX(0);
+    transition: .5s;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.content-social .twitterlink
+{
+    position: absolute;
+    margin-top: 18rem;
+    display: flex;
+}
+
+.content-social .twitterlink .twitter 
+{
+    position: relative;
+    display: flex;
+    margin-left: .5rem;
+}
+
+.content-social .twitterlink .twitter ion-icon
+{
+    font-size: 1.7rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.content-social .twitterlink .twitter p
+{
+    font-size: 1rem;
+    background: white;
+    height: 70%;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: .1rem;
+    visibility: hidden;
+    transform: translateX(-10rem);
+}
+
+.content-social .twitterlink .twitter:hover p
+{
+    visibility: visible;
+    transform: translateX(0);
+    transition: .5s;
+}
+
+.content-social .twitterlink .ln 
+{
+    position: relative;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.content-social .twitterlink .ln ion-icon
+{
+    font-size: 1.7rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.content-social .twitterlink .ln p
+{
+    font-size: 1rem;
+    background: white;
+    height: 70%;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: .1rem;
+    visibility: hidden;
+    transform: translateX(-10rem);
+}
+
+.content-social .twitterlink .ln:hover p
+{
+    visibility: visible;
+    transform: translateX(0);
+    transition: .5s;
+}
