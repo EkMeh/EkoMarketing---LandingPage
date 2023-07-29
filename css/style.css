@@ -261,7 +261,7 @@ body{
 }
 
 @media screen and (max-width:550px) {
-    .careers-info-box .box{-crwidth: 99%;}
+    .careers-info-box .box-cr{width: 99%;}
 }
 
 /* ideas content style start  */
