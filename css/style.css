@@ -228,9 +228,9 @@ body{
     gap: 10px;
 }
 
-.careers-info-box .box{width: 30%; background: white; padding: 10px;}
+.careers-info-box .box-cr{width: 30%; background: white; padding: 10px;}
 
-.careers-info-box .box h3{padding-bottom:5px; border-bottom: 2px solid black;margin: 1rem 0;}
+.careers-info-box .box-cr h3{padding-bottom:5px; border-bottom: 2px solid black;margin: 1rem 0;}
 
 
 @media screen and (max-width:1250px) {
@@ -257,11 +257,11 @@ body{
 }
 
 @media screen and (max-width:900px) {
-    .careers-info-box .box{width: 48%;}
+    .careers-info-box .box-cr{width: 48%;}
 }
 
 @media screen and (max-width:550px) {
-    .careers-info-box .box{width: 99%;}
+    .careers-info-box .box{-crwidth: 99%;}
 }
 
 /* ideas content style start  */
